@@ -1,0 +1,46 @@
+@import url('./main-layout.css');
+@import url('./views/all-items-view.css');    html {
+      --lumo-border-radius-s: 1px;
+      --lumo-border-radius-m: 2px;
+      --lumo-border-radius-l: 4px;
+      --lumo-size-xl: 3rem;
+      --lumo-size-l: 2.5rem;
+      --lumo-size-m: 2rem;
+      --lumo-size-s: 1.75rem;
+      --lumo-size-xs: 1.5rem;
+      --lumo-space-xl: 1.875rem;
+      --lumo-space-l: 1.25rem;
+      --lumo-space-m: 0.625rem;
+      --lumo-space-s: 0.3125rem;
+      --lumo-space-xs: 0.1875rem;
+
+    }
+
+    [theme~="dark"] {
+      --lumo-shade-5pct: hsla(214, 0%, 91%, 0.05);
+      --lumo-shade-10pct: hsla(214, 0%, 91%, 0.1);
+      --lumo-shade-20pct: hsla(214, 0%, 91%, 0.2);
+      --lumo-shade-30pct: hsla(214, 0%, 91%, 0.3);
+      --lumo-shade-40pct: hsla(214, 0%, 91%, 0.4);
+      --lumo-shade-50pct: hsla(214, 0%, 91%, 0.5);
+      --lumo-shade-60pct: hsla(214, 0%, 91%, 0.6);
+      --lumo-shade-70pct: hsla(214, 0%, 91%, 0.7);
+      --lumo-shade-80pct: hsla(214, 0%, 91%, 0.8);
+      --lumo-shade-90pct: hsla(214, 0%, 91%, 0.9);
+      --lumo-primary-color-50pct: hsla(0, 100%, 50%, 0.5);
+      --lumo-primary-color-10pct: hsla(0, 100%, 50%, 0.1);
+      --lumo-error-color-50pct: hsla(240, 100%, 50%, 0.5);
+      --lumo-error-color-10pct: hsla(240, 100%, 50%, 0.1);
+      --lumo-success-color-50pct: hsla(100, 100%, 50%, 0.5);
+      --lumo-success-color-10pct: hsla(100, 100%, 50%, 0.1);
+      --lumo-shade: hsl(214, 0%, 91%);
+      --lumo-primary-color: hsla(0, 100%, 50%, 1);
+      --lumo-primary-text-color: hsl(0, 100%, 50%);
+      --lumo-error-color: hsl(240, 100%, 50%);
+      --lumo-error-text-color: hsl(240, 100%, 50%);
+      --lumo-success-color: hsl(100, 100%, 50%);
+      --lumo-success-text-color: hsl(100, 100%, 50%);
+      --lumo-base-color: hsl(214, 0%, 0%);
+      --lumo-body-text-color: hsla(214, 0%, 74%, 0.9);
+
+    }
